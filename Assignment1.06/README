@@ -1,0 +1,18 @@
+## Explanation
+
+    - Players can now move between maps. When a player enters a gate, they're placed on a road square next to the gate in the neighboring map. NPCs cannot use gates.
+    
+    - Added a fly mode, activated with 'f'. Players input X and Y coordinates and are placed preferably on a road in the destination map. Turn queues and NPC positions remain consistent during flight.
+
+    - Transitioned the game to C++:
+    - Renamed all `.c` files to `.cpp`.
+    - Updated the makefile for C++ support.
+
+    - Converted major game structs, like maps and characters, into classes. The character structure now uses a pseudo-object-oriented design with `pc` and `npc` inheriting from the main `character` class.
+
+    Note: The `heap.h` and `heap.c` files are unchanged and remain C++ compatible.
+
+Usage:
+
+    Run the make command in the directory, and do ./worldTravel to run the output executable.
+    You can also use the make run command in the directory which runs the files and executes.

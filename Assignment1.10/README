@@ -1,0 +1,17 @@
+## README
+
+    Welcome to Connect4, a classic two-player connection game implemented in C++. This game is a digital version of the popular board game where players take turns dropping colored discs into a vertically suspended grid. The objective is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.
+
+    - Features
+        A text-based user interface.
+        Two-player gameplay on the same machine.
+        Colorful console output for better visibility and game experience.
+        Checks for valid inputs and full columns.
+        Evaluates winning conditions after each move.
+
+## Usage
+
+   - Run make in the extracted directory, and then a ./playgame to execute the output file
+   - Alternatively, you can also just run the make run command in the directory.
+
+Have Fun!!

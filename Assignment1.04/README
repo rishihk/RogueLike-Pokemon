@@ -1,0 +1,31 @@
+Explanation:
+
+        We have now come to the stage where we add the NPC's or the trainers to our maps. I have added 6 kinds of NPC's namely,
+
+        • Hikers: These will be represented by the letter ’h’. Hikers path to the PC by following a maximum
+          gradient on the hiker map.
+
+        • Rivals: These will be represented by the letter ’r’. Rivals path to the PC by following a maximum
+        gradient on the rival map.
+
+        • Pacers: These will be represented by the letter ’p’. Pacers start with a direction and walk until they
+        hit some terrain they cannot traverse, then they turn around and repeat, pacing back and forth.
+
+        • Wanderers: These will be represented by the letter ’w’. Wanderers never leave the terrain region they
+        were spawned in. They have a direction and walk strait ahead to the edge of the terrain, whereupon
+        they turn in a random direction and repeat.
+
+        • Sentries: These will be represented by the letter ’s’. Sentries don’t move; they just wait for the action
+        to come to them.
+
+        • Explorers: These will be represented by the letter ’e’. Explorers move like wanderers, but they cross
+        terrain type boundaries, only changing to a new, random direction when they reach an impassable
+        terrain element.
+
+        I have also added a switch, --numtrainers that takes an integer count of the number of trainers to scatter around. 
+
+Usage:
+
+    Run the make command in the directory and then a ./trainer to execute the output file
+    Alternatively you can run the make run command in the directory to automatically see the output.
+    Additionally, after running make, you can do ./trainers --numtrainers <integer> to set the number of trainers as you wish.

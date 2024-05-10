@@ -1,0 +1,13 @@
+## Changelog
+
+10/23/23 6:00pm: Looked at how to let the player move between maps.
+10/24/23 3:00pm: Made it so the player can go from one map to the next through gates. Made sure game characters (NPCs) can't. Made sure the PC travels to connected gates only.
+10/24/23 7:30pm: Made a system to track turns for each map. Made sure things don't change in maps the player isn't in.
+10/25/23 5:00pm: Added a fly mode. Players can now pick where to fly to.
+10/26/23 11:00am: Started changing the game to use C++. Changed file names from `.c` to `.cpp`.
+10/26/23 4:30pm: Made changes to the make file so it works with C++.
+10/27/23 2:00pm: Changed some main game parts to use the new C++ style.
+10/27/23 6:30pm: Made game characters fit better into the new C++ style.
+10/28/23 4:00pm: Checked two files (`heap.h` and `heap.c`) to make sure they work well with C++.
+10/29/23 3:30pm: Tested the code and the fly functions and travelling functions.
+10/29/23 8:00pm: Wrote the README file

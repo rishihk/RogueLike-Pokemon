@@ -1,0 +1,9 @@
+## Changelog
+11/06/23 6:00pm: Read the assignment specs
+11/07/23 3:00pm: Created a poke struct.
+11/07/23 7:30pm: Created pokemon generation for user selection.
+11/08/23 5:00pm: Implemented pokemon battle interface placeholder.
+11/09/23 11:00am: Implemented function to randomly generate pokemons in tall grass.
+11/09/23 4:30pm: Implemented pokemon trainer battle interface.
+11/11/23 4:00pm: Modified the functions to print stats as well, added level up function.
+11/12/23 5:00pm: Made the readme file, and ran some final tests to make sure.

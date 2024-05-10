@@ -1,0 +1,34 @@
+## Explanation:
+
+    In this version of the game we implement the minigame features turn-based battles between the PC and trainer pokemons or wild pokemons.
+
+    # Battle Mechanics
+    - Turn-Based Combat: Players and NPCs take turns to perform actions.
+    - Simplified Mechanics: No status effects or Pokemon abilities are implemented.
+    - Prioritization: Non-move actions have maximum priority.
+    - Damage Calculation: Simplified to exclude status effects.
+    - STAB (Same Type Attack Bonus): Implemented based on Pokemon and move types.
+    - Critical Hits: Simplified calculation based on the Pokemon's base speed.
+
+    # Battle Options
+    - Fight: Use a Pokemon move.
+    - Bag: Access items like revives, potions, and Pokeballs.
+    - Run: Attempt to flee (only in wild Pokemon battles).
+    - Pokemon: Switch active Pokemon.
+
+    # Inventory Management
+    - Revives: Revive knocked-out Pokemon to half max HP.
+    - Potions: Restore up to 20 HP without exceeding max HP.
+    - Pokeballs: Capture wild Pokemon (automatic success if PC has less than 6 Pokemon).
+
+    # AI
+    - NPC Behavior: Random move selection; Pokemon switching upon knockout.
+
+    # Health and Restoration
+    - Healing: Pokemon do not auto-heal post-battle. Healing is done via items or at Pokemon Centers.
+    - Supply Restoration: Restock at PokeMarts or through the 'B' command outside of battles.
+
+## Usage:
+
+    Run make in the directory after extracting the tarball. Then run ./poke327 to execute the output file.
+

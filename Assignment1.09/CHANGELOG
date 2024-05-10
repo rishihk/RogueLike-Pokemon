@@ -1,0 +1,12 @@
+## Changelog:
+
+    11/19/23 6:00pm: Read the assignment specs to understand what this version requires.
+    11/20/23 3:00pm: Implemented a pokemon battle interface.
+    11/20/23 7:30pm: Implemented the pokemon trainer battle interface
+    11/21/23 5:00pm: Added a level up function
+    11/22/23 11:00am: Created a struct for moves
+    11/22/23 4:30pm: Implemented pokemon battles with wild pokemon
+    11/24/23 4:00pm: Implemented pokemon battles with trainers
+    11/25/23 2:15pm: Implemented the bag logic 
+    11/26/23 4:00pm: Allowed the user to run from wild battles
+    11/26/23 5:00pm: Ran final tests, fixed a couple bugs and wrote the readme file.

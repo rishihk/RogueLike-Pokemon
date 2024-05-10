@@ -1,0 +1,23 @@
+## Changelog
+
+    12/01/23 6:00pm: Created a headerfile with the desired functionality I wanted for my game.
+
+    12/02/23 3:00pm: Set up the connect4 board structure and functions to display it. Also took care of the logic for token insertion.
+
+    12/02/23 7:30pm: Starting writing functions to check the winning conditions for horizontal direction.
+
+    12/03/23 5:00pm: Included color to the board to make it more attractive.
+
+    12/04/23 11:00am: Wrote logic that checks winning conditions for vertical direction.
+
+    12/04/23 4:30pm: Wrote the logic that checks the winning conditions in the diagonal direction.
+
+    12/05/23 2:00pm: Started including logic for player 1 and player 2 turns.
+
+    12/06/23 6:30pm: Added logic to handle invalid inputs gracefully.
+
+    12/06/23 4:00pm: Implemented logic to check for draw matches.
+
+    12/07/23 3:30pm: Performed extensive testing of the game, focusing on input validation, turn tracking, and overall game logic. Added UI improvements, and fixed bugs.
+    
+    12/07/23 8:00pm: Wrote the README file.

@@ -1,0 +1,9 @@
+10/3/23 6:30pm: Went through the assignment specs and modified my characters typedef to include all the newly introduced NPC's. Defined a new direction to keep track of NPC travel directions.
+10/4/23 4:00pm: Modified my print functions to include the newly introduced characters. 
+10/5/23 11:30am: Created helper functions that check surroundings of the npc's based on the time costs.
+10/6/23 8:00pm: Implemented the hiker and rival movement functions so that they travel to the Player Character by following the mac gradients on their respective cost maps.
+10/7/23: 3:00pm: Implemented pacer movement function such that they walk until they hit a terrain with max cost, turn around and repeat the same.
+10/7/23: 7:00pm: Implemented the wanderer movement function similar to pacer but with a few tweaks such that they never leave terrain they spawned in and turn in random directions upon reaching the ends.
+10/8/23: 4:30pm: Implemented movement for the explorer npc. Similar to wanderers but can cross terrain, change direction when reaching an impassible terrain. Also implemented a function to generate the NPC's randomly in my map.
+10/8/23: 9:00pm: Modified the main method to print NPC movements, also implemented the logic for the --numtrainers switch.
+10/8/23: 10:00pm: Ran final tests and fixed some bugs. Wrote the Readme file.

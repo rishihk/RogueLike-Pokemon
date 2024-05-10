@@ -1,0 +1,15 @@
+Explanation:
+
+    In this assignment I have introduced adversary trainers into our game. For now I have introduced two different kinds of trainers that pathfind. Hikers who can go almost anywhere except water, and rivals, who can't walk over rocks, trees, or water.
+
+    I have also introduced a Player Character (PC) to our map, placed randomly on the path, represented by an @. I have calculated the movement paths for hikers and rivals. Both of these trainers can see the PC wherever it is, and will take the shortest path to the PC, so that they can engage in Pokemon battles.
+
+Usage: 
+
+    Extract the tarball
+    Run the "make" command in the directory.
+    Execute the output file by doing "./costmap".
+
+    Alternatively,
+    Just do a "make run" in the directory. This will automatically run the program and execute the output file.
+

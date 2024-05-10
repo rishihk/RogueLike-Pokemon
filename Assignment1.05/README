@@ -1,0 +1,31 @@
+Explanation
+
+    Welcome to the latest iteration of our Pokemon game project. This time around, I've focused on enhancing the Player Character (PC) movement and introducing a seamless user interface for manual character control. I've made use of the ncurses library to handle unbuffered I/O in C. A crucial point to remember: I've ensured that neither NPCs nor the PC can use the map exits in this version. Also, I took extra care to prevent the PC from standing on the exit, keeping our pathfinding mechanism from version 1.03 intact.
+
+    Movement Commands:
+    7 or y: Move the PC one cell to the upper left.
+    8 or k: Move the PC one cell up.
+    9 or u: Move the PC one cell to the upper right.
+    6 or l: Move the PC one cell to the right.
+    3 or n: Move the PC one cell to the lower right.
+    2 or j: Move the PC one cell down.
+    1 or b: Move the PC one cell to the lower left.
+    4 or h: Move the PC one cell to the left.
+    5, space, or .: Let the PC rest for a turn. Just a heads up, NPCs will still move during this action.
+
+    Building Interaction:
+    >: This command lets the PC enter a Pokemart or Pokemon Center, but it's only functional if the PC is standing on a building icon. I've set up a dedicated interface for this, which is still in its early stages (placeholder). To exit, simply press <.
+
+    Trainer Interaction:
+    t: This displays a list of trainers on the map. It provides their symbol and their position relative to the PC.
+    up arrow: Scroll up the list if the entire list doesn't fit the screen and you're not already at the top.
+    down arrow: Scroll down if necessary.
+    escape: Use this to quickly return to character control.
+
+    Battle Mechanics:
+    Whenever the PC tries to move into a cell occupied by an NPC or if an NPC tries to do the same, and the PC hasn't previously defeated this particular trainer, a Pokemon Battle interface pops up.
+
+Usage instructions:
+
+    To run the file, navigate to projects root directory and run the "make" command and then "./a.out" to execute the output file.
+    You can use any of the above commands for PC movement and and building, trainer, and battle interactions.

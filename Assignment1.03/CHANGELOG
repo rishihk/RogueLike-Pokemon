@@ -1,0 +1,29 @@
+20/9/23 6:00pm: Went through the professors solution for Assignment 1.02 and tried understand it.
+
+21/9/23 12:00pm: Went through the assignment specifications, and declared variables and function signatures.
+
+23/9/23 2:00pm: Created a placeholder PC datatype and put the PC's position data inside it as mentioned in spec.
+
+23/9/23 3:30pm: Initialized the hiker cost and rival cost arrays. Modified the world struct.
+
+23/9/23 9:00pm: Defined an enum for the two trainer types hiker and rival. Created a function that randomly places the Player Character on the road. 
+
+23/9/23 11:30pm: Created getters for the hiker and rival costs. Used these in a function determining the priorities of rival and hiker.
+
+26/9/23: 5:00pm: Initialized the movement cost chart as specified in the specs and created a getter to get the costs.
+
+28/9/23: 8:30pm: Initialized each cell of the path arrays. 
+
+29/9/23: 6:00pm: Created a function to set all the initial costs of moving to each location on the map for both hikers and rivals.
+
+29/9/23: 11:00pm: Created a function that populates the heap with passable locations.
+
+30/9/23: 10:00am: Implemented an update costs function which performs the relaxation step of dijkstras algorithm.
+
+1/9/23: 12:30pm: Made a function to update the costs of neighbouring cells to facilitate the relaxation process to get the shortest path to neighbours.
+
+1/9/23: 3:00pm: Combined all the steps together for djikstras. Function calculates the shortest path costs for both hiker and rival NPC's.
+
+1/9/23: 5:00pm: Implemented a generic print function that prints the hiker and rival cost maps. Modified the main method to print these cost maps for any generated map. 
+
+1/9/23: 6:00pm: Created readme file with explanation and usage instructions. Modified makefile. Tested the program thoroughly.

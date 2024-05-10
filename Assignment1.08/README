@@ -1,0 +1,13 @@
+## Readme
+
+## Explanation
+
+    Random Pokémon Encounters: Players have a 10% chance of encountering Pokémon in tall grass, with a uniform chance across 1,092 species.
+    Level Scaling: Pokémon levels are determined by distance from the origin, ranging from 1 to 100.
+    Moves and Stats: Pokémon know up to two level-appropriate moves. Stats are calculated using base stats and individual values (IVs).
+    Simplified Mechanics: Gender and shininess are randomly determined. A placeholder for battles and captures displays Pokémon stats and waits for input.
+    Trainer and NPC Dynamics: Players start with a choice of three level 1 Pokémon. NPCs are equipped with Pokémon, following the game's generation rules.
+
+## Usage
+
+    Run make in the directory after extracting the tarball and then run ./poke327

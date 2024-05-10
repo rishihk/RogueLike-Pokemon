@@ -1,0 +1,19 @@
+## Readme
+
+Explanation:
+
+    In this version 1.07, we are parsing csv data files that describe the pokemons and their attributes. The program parses the csv files and prints its contents to the standard output. 
+
+Usage:
+
+    Run make in the directory, and then run ./poke327 with the desired argument. The possible arguments to execute the output file are :- 
+    • pokemon.csv
+    • moves.csv
+    • pokemon moves.csv
+    • pokemon species.csv
+    • experience.csv
+    • type names.csv
+    • pokemon stats.csv
+    • stats.csv
+    • pokemon types.csv
+
